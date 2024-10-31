@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  width: 100%;
+  width: 984px;
   max-width: 984px;
   margin-top: 92px;
-  box-sizing: border-box;
 }
 
 .main__title {
@@ -38,7 +37,7 @@
 
 .main__text {
   width: 100%;
-  max-width: 722px;
+  max-width: 725px;
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
@@ -64,9 +63,9 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main {
-    /* max-width: 288px; */
+    max-width: 288px;
     margin-top: 64px;
     padding: 0 16px;
   }
