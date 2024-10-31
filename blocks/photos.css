@@ -1,0 +1,12 @@
+.photos {
+  margin-top: 118px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows:repeat(2, 1fr);
+  gap: 16px 16px;
+}
+
+.images {
+  max-width: 284px;
+}
